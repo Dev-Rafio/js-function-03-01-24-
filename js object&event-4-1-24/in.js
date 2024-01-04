@@ -1,26 +1,34 @@
 
 // js object
-
 var myInfo={
-
 name:'Rafio',
 address:"dhaka",
-phoneNo:"01747784310",
+phoneNo:1747784310,
 sum:78,
-
 }
-console.log(myInfo.phoneNo,myInfo.address);
+console.log(myInfo.phoneNo);
 
 
-//function object
-function printr(name,address, phone,sum){
-this.name=name;
-this.address=address;
-this.phone;
-this.sum;
-}
-var print= new printr("rafio","dhaka","0176846");
-console.log(print.name);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -31,13 +39,12 @@ function Printlen() {
 }
 
 
-function Nm() {
-  document.getElementById("id2").innerHTML= Date();
-}
 
+
+//js Events/ Date()
 
 function ClickMe(){
-  document.getElementById("ID1").innerHTML = Date()
+  document.getElementById("id2").innerHTML = Date()
 
 }
 
